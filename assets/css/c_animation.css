@@ -1,0 +1,197 @@
+/* custom fonts started here */
+/* Barol font family */
+@font-face {
+  font-family: Barlow-Bold;
+  src: url("../fonts/Barlow/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: Barlow-ExtraBold;
+  src: url("../fonts/Barlow/Barlow-ExtraBold.ttf");
+}
+@font-face {
+  font-family: Barlow-Medium;
+  src: url("../fonts/Barlow/Barlow-Medium.ttf");
+}
+@font-face {
+  font-family: Barlow-Regular;
+  src: url("../fonts/Barlow/Barlow-Regular.ttf");
+}
+@font-face {
+  font-family: Barlow-SemiBold;
+  src: url("../fonts/Barlow/Barlow-SemiBold.ttf");
+}
+
+/* NunitoSans font family */
+@font-face {
+  font-family: NunitoSans-Black;
+  src: url("../fonts/NunitoSans/NunitoSans-Black.ttf");
+}
+@font-face {
+  font-family: NunitoSans-BlackItalic;
+  src: url("../fonts/NunitoSans/NunitoSans-BlackItalic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-Bold;
+  src: url("../fonts/NunitoSans/NunitoSans-Bold.ttf");
+}
+@font-face {
+  font-family: NunitoSans-BoldItalic;
+  src: url("../fonts/NunitoSans/NunitoSans-BoldItalic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-ExtraBold;
+  src: url("../fonts/NunitoSans/NunitoSans-ExtraBold.ttf");
+}
+@font-face {
+  font-family: NunitoSans-ExtraBold;
+  src: url("../fonts/NunitoSans/NunitoSans-ExtraBoldItalic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-ExtraLight;
+  src: url("../fonts/NunitoSans/NunitoSans-ExtraLight.ttf");
+}
+@font-face {
+  font-family: NunitoSans-ExtraLightItalic;
+  src: url("../fonts/NunitoSans/NunitoSans-ExtraLightItalic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-Italic;
+  src: url("../fonts/NunitoSans/NunitoSans-Italic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-Light;
+  src: url("../fonts/NunitoSans/NunitoSans-Light.ttf");
+}
+@font-face {
+  font-family: NunitoSans-LightItalic;
+  src: url("../fonts/NunitoSans/NunitoSans-LightItalic.ttf");
+}
+@font-face {
+  font-family: NunitoSans-Regular;
+  src: url("../fonts/NunitoSans/NunitoSans-Regular.ttf");
+}
+@font-face {
+  font-family: NunitoSans-SemiBold;
+  src: url("../fonts/NunitoSans/NunitoSans-SemiBold.ttf");
+}
+@font-face {
+  font-family: NunitoSans-SemiBoldItalic;
+  src: url("../fonts/NunitoSans/NunitoSans-SemiBoldItalic.ttf");
+}
+
+/* Avenir Fonts */
+@font-face {
+  font-family: AvenirNextLTPro-Bold;
+  src: url("../fonts/Avenir/AvenirNextLTPro-Bold.otf");
+}
+@font-face {
+  font-family: AvenirNextLTPro-It;
+  src: url("../fonts/Avenir/AvenirNextLTPro-It.otf");
+}
+@font-face {
+  font-family: AvenirNextLTPro-Regular;
+  src: url("../fonts/Avenir/AvenirNextLTPro-Regular.otf");
+}
+/* custom fonts ended here */
+
+/* left in slide */
+@keyframes leftIn {
+  0% {
+    opacity: 0;
+    transform: translateX(-350px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* right in slide */
+@keyframes rightIn {
+  0% {
+    opacity: 0;
+    transform: translateX(350px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* fade in */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* top in slide */
+@keyframes topIn {
+  0% {
+    opacity: 0;
+    transform: translateY(-100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* scroll button animation */
+@keyframes scrolldown {
+  0% {
+    transform: translateY(20%);
+    opacity: 0.7;
+  }
+  50% {
+    transform: translateY(0%);
+    opacity: 0.2;
+  }
+  100% {
+    transform: translateY(20%);
+    opacity: 0.7;
+  }
+}
+
+/* expertise page loading effect */
+@keyframes expLoading {
+  0% {
+    opacity: 0;
+    transform: translateY(-250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* mobile ul */
+@keyframes mobMenuAnimation {
+  0% {
+    transform: scale(0);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* exp details sub menu entry slide right to left */
+@keyframes slideRight2Left {
+  0% {
+    opacity: 0;
+    transform: translateX(250px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
